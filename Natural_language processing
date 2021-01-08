@@ -44,7 +44,7 @@ classifier.fit(X_train, y_train)
 
 # Predicting the Test set results
 y_pred = classifier.predict(X_test)
-
+#review taken from user and processing 
 output=[]
 for i in range(1):
     output.append('i hate this food worst bad')
